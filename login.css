@@ -1,0 +1,116 @@
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    font-family: Inter;
+}
+.body{
+    font-family: Inter;
+}
+.top-layer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo{
+    width: 125px;
+}
+.log-in-page{
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 30px;
+    color: rgb(100, 100, 100);
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-in-itemdivision{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 40px;
+}
+.login-item{
+    font-size: 20px;
+    color: rgba(38, 187, 164, 1);
+    font-weight: bold;
+    font-family: Inter;
+    margin-bottom: 10px;
+   
+    
+}
+.login-iteminput{
+    font-size: 15px;
+    border-style: solid;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 6px;
+    padding-left: 12px;
+    height: 35px;
+    width: 450px;
+    border-color: rgba(38, 187, 164, 1);
+}
+
+.login-iteminput::placeholder{
+    color: rgb(187, 187, 187);
+}
+
+.log-in-button{
+    padding: 10px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(38, 187, 164, 1);
+    border-style: solid;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+
+}
+.log-in-button:hover{
+    opacity: 0.7;
+}
+.log-in-button:active{
+    opacity: 0.3;
+}
+
+.prompt-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Inter;
+    color: rgba(38, 187, 164, 1);
+
+}
+.login-button-division{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.password{
+    margin-right: 20px;
+    color: rgba(38, 187, 164, 1);
+    text-decoration: none;
+}
+.password:hover{
+    font-size: 15px;
+}
+.link{
+    color: rgba(38, 187, 164, 1);
+}
